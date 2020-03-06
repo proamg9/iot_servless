@@ -32,9 +32,9 @@ functions:
           path: /iot-presigned-url
     environment:
       IOT_AWS_REGION: 'us-east-2'
-      IOT_ENDPOINT_HOST: 'a3qtwf3rwf2n8a-ats.iot.us-east-2.amazonaws.com'
-      IOT_ACCESS_KEY: 'AKIA45VVR323WMD3QLOY'
-      IOT_SECRET_KEY: '3dNH4d1ovxrgOABWX7foaieFk/pFIiwINLc3iuRq'
+      IOT_ENDPOINT_HOST: 'your endpoint'
+      IOT_ACCESS_KEY: 'your access key from IOT console'
+      IOT_SECRET_KEY: 'for secret key from was'
 
 notifyDisconnect:
   handler: src/notifyDisconnect.handler
@@ -43,5 +43,5 @@ notifyDisconnect:
     - iot:
         sql: "SELECT * FROM 'last-will'"
   environment:
-    IOT_AWS_REGION: 'us-east-2>'
-    IOT_ENDPOINT_HOST: 'a3qtwf3rwf2n8a-ats.iot.us-east-2.amazonaws.com'
+    IOT_AWS_REGION: 'us-east-2'
+    IOT_ENDPOINT_HOST: 'endpoint host'
