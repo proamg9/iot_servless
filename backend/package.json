@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^2.3.2",
+    "serverless-offline": "^5.12.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.634.0",
+    "aws-signature-v4": "^1.4.0",
+    "crypto": "^1.0.1"
+  }
+}
